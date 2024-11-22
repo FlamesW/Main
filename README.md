@@ -1,1 +1,41 @@
-# Main
+# Flameware X
+
+- A Script Hub that will support variety of games.
+
+### Join the discord server :] [Here](https://dsc.gg/Flames-Community)
+
+```lua
+getgenv().Settings = { -- true = on | false = off
+    ["Interface"] = {
+        ["VisibilityUI"] = "J", -- // Key you want to be pressed to Show/Hide UI.
+        ["ResizeableUI"] = {868,650}, -- // You can change the UI size if you want.
+        ["CustomThemeUI"] = {0,0,0}, -- // You can set color of the UI if you want.
+        ["DraggingStyle"] = 1, -- // 1 or 2 choose what kind of dragging style you want.
+        ["AcrylicBlur"] = true, -- // Optional, but recommened with a blur since UI is big
+    },
+    ["General"] = {
+        ["StreamingMode"] = false, -- // Optional for showcasers and streamers.
+        ["UpdatePrompts"] = true, -- // Will notify you when theres a new update.
+    },
+    ["Security"] = {
+        ["ModeratorDetections"] = true, -- // Recommended to enable this.
+        ["SnitchDetections"] = false, -- // Optional, but recommened to use it.
+    },
+};
+
+-- https://discord.gg/yeWdNBtxrP
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FlamesW/Main/home/Loader"))();
+```
+
+##### Warning: Some features might get you banned from being reported by players.
+
+## Special Credits:
+- [Flames](https://discord.com/users/656455297979908106) | Scripter / Support / Owner ✍️
+
+**Thanks to these people: 👇**
+- [Biggaboy212](https://discord.gg/FWC8PpWtQv) | UI Library 👍
+
+&nbsp;
+
+---
+![noFilter](https://github.com/user-attachments/assets/5d08cd2a-7cbf-4ce4-9567-77611d0b9f46)
