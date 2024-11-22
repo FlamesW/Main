@@ -61,7 +61,7 @@ ChangelogsSection3:Paragraph({Header = "* Before you write:",Body = "Organize yo
 
 ChangelogsSection3:Input({Name = "Type here whatever~",Placeholder = 'Dont be shy :)',AcceptedCharacters = "All",
 	Callback = function(Input)
-		getgenv().SuggestionValue = Input;
+	    getgenv().SuggestionValue = Input;
 	end,
 },"SuggestInput");
 
@@ -83,7 +83,7 @@ ChangelogsSection4:Paragraph({Header = "* Before you write:",Body = "Make sure y
 
 ChangelogsSection4:Input({Name = "Type here whatever~",Placeholder = 'Dont be shy :)',AcceptedCharacters = "All",
 	Callback = function(Input)
-		getgenv().ReportValue = Input;
+	    getgenv().ReportValue = Input;
 	end,
 },"BugInput");
 
