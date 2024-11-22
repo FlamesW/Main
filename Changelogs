@@ -1,0 +1,94 @@
+-- // Changelogs \\ [This will be edited any time an update occurs] --
+
+-- // Do not troll please :(
+getgenv().SuggestChannel = "https://discord.com/api/webhooks/1308099393517518899/KLsiHlYQ-yvGP4V2uNN9sfKS-l85tPqsGWNsYjWG9jVpLNI5qhCZuOptwMy5xzWg6ziX";
+getgenv().ReportChannel = "https://discord.com/api/webhooks/1308099539252678657/wSrgtqjcFwYGZxls93EMEKE1d45yEysSHvLolajrfvx-WMON0d5XgcGEo-7XasrFlNjX";
+
+-- Title
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+local ChangelogsSection1 = getgenv().ChangelogsTab:Section({Side = "Left"});
+
+ChangelogsSection1:Header({Text = "Changelogs - Updates"});
+
+ChangelogsSection1:Divider();
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+-- Changelogs Maker
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ChangelogsSection1:Paragraph({Header = "Flameware 1.02 [Settings]",Body = "* The following changes:"});
+
+ChangelogsSection1:SubLabel({Text = "- Added custom theme colors!~"});
+
+ChangelogsSection1:SubLabel({Text = "- Mobiles devices get 50% less scale now."});
+
+ChangelogsSection1:SubLabel({Text = "- Theme is now black and Blur set higher."});
+
+ChangelogsSection1:SubLabel({Text = "- Improved Mod Detections, Now it detects teams aswell."});
+
+ChangelogsSection1:SubLabel({Text = "- Improved Snitch Detections"});
+
+ChangelogsSection1:Label({Text = "It takes some time to update~"});
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ChangelogsSection1:Divider();
+ChangelogsSection1:Paragraph({Header = "Flameware 1.01 [Sakura Stand]",Body = "* The following changes:"});
+
+ChangelogsSection1:SubLabel({Text = "- Script released!"});
+
+ChangelogsSection1:Label({Text = "This the beginning of our journey!"});
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+-- Supported Games
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+local ChangelogsSection2 = getgenv().ChangelogsTab:Section({Side = "Right"});
+ChangelogsSection2:Header({Text = "Supported Games"});
+
+ChangelogsSection2:Divider();
+
+ChangelogsSection2:Paragraph({Header = "* Sakura Stand",Body = "Operational - Last Update: 18/11/2024"});
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+-- Suggestion Reports
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+local ChangelogsSection3 = getgenv().ChangelogsTab:Section({Side = "Right"});
+ChangelogsSection3:Header({Text = "Suggestion Reports"});
+
+ChangelogsSection3:Divider();
+
+ChangelogsSection3:Paragraph({Header = "* Before you write:",Body = "Organize your Suggestion, Youre sending it to me... So it should look good at least."});
+
+ChangelogsSection3:Input({Name = "Type here whatever~",Placeholder = 'Dont be shy :)',AcceptedCharacters = "All",
+	Callback = function(Input)
+		getgenv().SuggestionValue = Input;
+	end,
+},"SuggestInput");
+
+ChangelogsSection3:Button({Name = "Submit Suggestion",Callback = function()
+    getgenv().SubmitSuggestion();
+end});
+
+ChangelogsSection3:SubLabel({Text = "Disclaimer: Usernames will be logged."});
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+-- Bug Reports
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+local ChangelogsSection4 = getgenv().ChangelogsTab:Section({Side = "Right"});
+ChangelogsSection4:Header({Text = "Bug Reports"});
+
+ChangelogsSection4:Divider();
+
+ChangelogsSection4:Paragraph({Header = "* Before you write:",Body = "Make sure you think this is truly a bug."});
+
+ChangelogsSection4:Input({Name = "Type here whatever~",Placeholder = 'Dont be shy :)',AcceptedCharacters = "All",
+	Callback = function(Input)
+		getgenv().ReportValue = Input;
+	end,
+},"BugInput");
+
+ChangelogsSection4:Button({Name = "Submit Report",Callback = function()
+    getgenv().SubmitReport();
+end});
+
+ChangelogsSection4:SubLabel({Text = "Disclaimer: Usernames will be logged."});
