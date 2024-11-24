@@ -31,6 +31,7 @@ ChangelogsSection1:SubLabel({Text = "- Auto toggles are now automatic for import
 ChangelogsSection1:Label({Text = "It takes some time to update~"});
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ChangelogsSection1:Divider();
 
 ChangelogsSection1:Paragraph({Header = "Flameware 1.02 [Settings]",Body = "* The following changes:"});
 
