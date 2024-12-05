@@ -1,0 +1,15 @@
+-- // Do not execute this directly, Visit: https://github.com/FlamesW/Main/blob/home/README.md
+
+repeat task.wait(0.25) until game:IsLoaded();
+getgenv().CurrentVersion = "1.03";
+getgenv().MainIcon = "http://www.roblox.com/asset/?id=100500296638402";
+getgenv().Credits = "flames9925";
+
+-- // Script Launcher \\ --
+local SupportedGames = {
+    Sakura_Stand = {8534845015,15552367548};
+}
+
+if table.find(SupportedGames.Sakura_Stand,game.PlaceId) then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/FlamesW/Main/home/SS"))();
+end
