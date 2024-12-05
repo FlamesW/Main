@@ -15,7 +15,22 @@ ChangelogsSection1:Divider();
 
 -- Changelogs Maker
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ChangelogsSection1:Paragraph({Header = "Flameware 1.04 [Sakura Stand]",Body = "* The following changes:"});
 
+ChangelogsSection1:SubLabel({Text = "- Added Toxic Scripts Section"});
+
+ChangelogsSection1:SubLabel({Text = "- Added Added Notification Sounds"});
+
+ChangelogsSection1:SubLabel({Text = "- Revamped Farming Features Section"});
+
+ChangelogsSection1:SubLabel({Text = "- Fixed so many stuff  -_-"});
+
+ChangelogsSection1:SubLabel({Text = "- Added so many stuff  OwO"});
+
+ChangelogsSection1:Label({Text = "It takes some time to update~"});
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ChangelogsSection1:Divider();
 ChangelogsSection1:Paragraph({Header = "Flameware 1.03 [Sakura Stand]",Body = "* The following changes:"});
 
 ChangelogsSection1:SubLabel({Text = "- Added More Teleports Section"});
