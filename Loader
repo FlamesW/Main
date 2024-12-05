@@ -11,5 +11,5 @@ local SupportedGames = {
 }
 
 if table.find(SupportedGames.Sakura_Stand,game.PlaceId) then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/FlamesW/Main/home/SS"))();
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/FlamesW/Main/home/SS.txt"))();
 end
