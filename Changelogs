@@ -15,6 +15,22 @@ ChangelogsSection1:Divider();
 
 -- Changelogs Maker
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ChangelogsSection1:Paragraph({Header = "Flameware 1.05 [Sakura Stand]",Body = "* The following changes:"});
+
+ChangelogsSection1:SubLabel({Text = "- Added the new halloween boss~"});
+
+ChangelogsSection1:SubLabel({Text = "- Added camera noclip while using Flameware"});
+
+ChangelogsSection1:SubLabel({Text = "- Added a lot of secret teleports"});
+
+ChangelogsSection1:SubLabel({Text = "- Resized UI for Mobiles from 55% ->> 50%"});
+
+ChangelogsSection1:SubLabel({Text = "- Fixed random notifs"});
+
+ChangelogsSection1:Label({Text = "It takes some time to update~"});
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ChangelogsSection1:Divider();
 ChangelogsSection1:Paragraph({Header = "Flameware 1.04 [Sakura Stand]",Body = "* The following changes:"});
 
 ChangelogsSection1:SubLabel({Text = "- Added Toxic Scripts Section"});
@@ -77,7 +93,7 @@ ChangelogsSection2:Header({Text = "Supported Games"});
 
 ChangelogsSection2:Divider();
 
-ChangelogsSection2:Paragraph({Header = "* Sakura Stand",Body = "Operational - Last Update: 05/12/2024"});
+ChangelogsSection2:Paragraph({Header = "* Sakura Stand",Body = "Operational - Last Update: 07/12/2024"});
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 -- Suggestion Reports
