@@ -15,6 +15,32 @@ ChangelogsSection1:Divider();
 
 -- Changelogs Maker
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ChangelogsSection1:Paragraph({Header = "Flameware 1.06 [Sakura Stand]",Body = "* The following changes:"});
+
+ChangelogsSection1:SubLabel({Text = "- Rewrote Attacking function (Subject to change)"});
+
+ChangelogsSection1:SubLabel({Text = "- Rewrote Auto Escape Combos~"});
+
+ChangelogsSection1:SubLabel({Text = "- Added more Toji Spawn Methods."});
+
+ChangelogsSection1:SubLabel({Text = "- Added mob support for public users."});
+
+ChangelogsSection1:SubLabel({Text = "- Added a Slider for Auto Respawn V1/V2"});
+
+ChangelogsSection1:SubLabel({Text = "- Added New info about the One Shot."});
+
+ChangelogsSection1:SubLabel({Text = "- Fixed Anti AFK (Better now)."});
+
+ChangelogsSection1:SubLabel({Text = "- Fixed Some stuff I cant remember lol."});
+
+ChangelogsSection1:SubLabel({Text = "- Removed Sounds Section (Useless)"});
+
+ChangelogsSection1:SubLabel({Text = "- Removed random notifs (Will return soon)."});
+
+ChangelogsSection1:Label({Text = "It takes some time to update~"});
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ChangelogsSection1:Divider();
 ChangelogsSection1:Paragraph({Header = "Flameware 1.05 [Sakura Stand]",Body = "* The following changes:"});
 
 ChangelogsSection1:SubLabel({Text = "- Added the new halloween boss~"});
@@ -93,7 +119,7 @@ ChangelogsSection2:Header({Text = "Supported Games"});
 
 ChangelogsSection2:Divider();
 
-ChangelogsSection2:Paragraph({Header = "* Sakura Stand",Body = "Operational - Last Update: 07/12/2024"});
+ChangelogsSection2:Paragraph({Header = "* Sakura Stand",Body = "Operational - Last Update: 09/12/2024"});
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 -- Suggestion Reports
