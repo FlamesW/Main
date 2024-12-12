@@ -15,6 +15,36 @@ ChangelogsSection1:Divider();
 
 -- Changelogs Maker
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ChangelogsSection1:Paragraph({Header = "Flameware 1.07 [Sakura Stand]",Body = "* The following changes:"});
+
+ChangelogsSection1:SubLabel({Text = "- Added Auto Bait Boss section!"});
+
+ChangelogsSection1:SubLabel({Text = "- Improved Auto summon Toji!~"});
+
+ChangelogsSection1:SubLabel({Text = "- Unique items will get prioritized (Even in Mob Farm)."});
+
+ChangelogsSection1:SubLabel({Text = "- Rewrote Auto Escape Combo (Again...)"});
+
+ChangelogsSection1:SubLabel({Text = "- Changed Keys in selection."});
+
+ChangelogsSection1:SubLabel({Text = "- Removed Admin bosses from Auto Bosses Mode."});
+
+ChangelogsSection1:SubLabel({Text = "- Improved Mob Selection (Bosses are prioritized)"});
+
+ChangelogsSection1:SubLabel({Text = "- Changed UI Size ->> (910,710)"});
+
+ChangelogsSection1:SubLabel({Text = "- Added 'Deal Damage' to dummy."});
+
+ChangelogsSection1:SubLabel({Text = "- Added Hallowen Shop UI."});
+
+ChangelogsSection1:SubLabel({Text = "- Roland items will now get ignored."});
+
+ChangelogsSection1:SubLabel({Text = "- Added Search bar to every dropdown."});
+
+ChangelogsSection1:Label({Text = "It takes some time to update~"});
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ChangelogsSection1:Divider();
 ChangelogsSection1:Paragraph({Header = "Flameware 1.06 [Sakura Stand]",Body = "* The following changes:"});
 
 ChangelogsSection1:SubLabel({Text = "- Rewrote Attacking function (Subject to change)"});
