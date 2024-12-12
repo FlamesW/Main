@@ -149,7 +149,7 @@ ChangelogsSection2:Header({Text = "Supported Games"});
 
 ChangelogsSection2:Divider();
 
-ChangelogsSection2:Paragraph({Header = "* Sakura Stand",Body = "Operational - Last Update: 09/12/2024"});
+ChangelogsSection2:Paragraph({Header = "* Sakura Stand",Body = "Operational - Last Update: 12/12/2024"});
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 -- Suggestion Reports
