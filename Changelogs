@@ -1,8 +1,13 @@
 -- // Changelogs \\ [This will be edited any time an update occurs] --
 
+-- [Status]
+getgenv().SakuraStandStatus = "Operational - Last Update: 18/12/2024";
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 -- // Do not troll please :(
 getgenv().SuggestChannel = "https://discord.com/api/webhooks/1308099393517518899/KLsiHlYQ-yvGP4V2uNN9sfKS-l85tPqsGWNsYjWG9jVpLNI5qhCZuOptwMy5xzWg6ziX";
 getgenv().ReportChannel = "https://discord.com/api/webhooks/1308099539252678657/wSrgtqjcFwYGZxls93EMEKE1d45yEysSHvLolajrfvx-WMON0d5XgcGEo-7XasrFlNjX";
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 -- Title
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -15,6 +20,36 @@ ChangelogsSection1:Divider();
 
 -- Changelogs Maker
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ChangelogsSection1:Paragraph({Header = "Flameware 1.08 [Sakura Stand]",Body = "* The following changes:"});
+
+ChangelogsSection1:SubLabel({Text = "- Solarat users are disallowed to use the script now :))"});
+
+ChangelogsSection1:SubLabel({Text = "- Improved Autofarm Further Beyond~"});
+
+ChangelogsSection1:SubLabel({Text = "- Auto Dodger when Autofarming Deku spesifically."});
+
+ChangelogsSection1:SubLabel({Text = "- Fixed Not attacking when Jotaro held blocks~"});
+
+ChangelogsSection1:SubLabel({Text = "- Added Auto Summon The Red Mist."});
+
+ChangelogsSection1:SubLabel({Text = "- Added Deku Farmer [LOCKED]~"});
+
+ChangelogsSection1:SubLabel({Text = "- Fixed 1 line in Auto Pick OFA feature."});
+
+ChangelogsSection1:SubLabel({Text = "- Removed useless functions~"});
+
+ChangelogsSection1:SubLabel({Text = "- Added more Defaults + Search bars onto dropdowns."});
+
+ChangelogsSection1:SubLabel({Text = "- Added Alucard's Banner in the dropdown."});
+
+ChangelogsSection1:SubLabel({Text = "- Improved Auto Skip Menu Loader"});
+
+ChangelogsSection1:SubLabel({Text = "- Added Search bar to every dropdown."});
+
+ChangelogsSection1:Label({Text = "It takes some time to update~"});
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ChangelogsSection1:Divider();
 ChangelogsSection1:Paragraph({Header = "Flameware 1.07 [Sakura Stand]",Body = "* The following changes:"});
 
 ChangelogsSection1:SubLabel({Text = "- Added Auto Bait Boss section!"});
@@ -149,7 +184,7 @@ ChangelogsSection2:Header({Text = "Supported Games"});
 
 ChangelogsSection2:Divider();
 
-ChangelogsSection2:Paragraph({Header = "* Sakura Stand",Body = "Operational - Last Update: 12/12/2024"});
+ChangelogsSection2:Paragraph({Header = "* Sakura Stand",Body = getgenv().SakuraStandStatus});
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 -- Suggestion Reports
