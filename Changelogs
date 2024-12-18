@@ -22,7 +22,7 @@ ChangelogsSection1:Divider();
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ChangelogsSection1:Paragraph({Header = "Flameware 1.08 [Sakura Stand]",Body = "* The following changes:"});
 
-ChangelogsSection1:SubLabel({Text = "- Solarat users are disallowed to use the script now :))"});
+ChangelogsSection1:SubLabel({Text = "- Solarat users are blacklisted now:)~"});
 
 ChangelogsSection1:SubLabel({Text = "- Improved Autofarm Further Beyond~"});
 
