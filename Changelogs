@@ -2,7 +2,7 @@
 
 -- [Status]
 getgenv().SakuraStandStatus = "Operational - Last Update: 18/12/2024";
-getgenv().StandsAwakeningStatus = "Operational - Last Update: 22/12/2024";
+getgenv().StandsAwakeningStatus = "Operational - Last Update: 23/12/2024";
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 -- // Do not troll please :(
@@ -21,6 +21,23 @@ ChangelogsSection1:Divider();
 
 -- Changelogs Maker
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ChangelogsSection1:Paragraph({Header = "Flameware 1.10 [Stands Awakening]",Body = "* The following changes:"});
+
+ChangelogsSection1:SubLabel({Text = "- Added Map Teleports~"});
+
+ChangelogsSection1:SubLabel({Text = "- Added OP Stand Farmer!!!~"});
+
+ChangelogsSection1:SubLabel({Text = "- Added Miscs Sections"});
+
+ChangelogsSection1:SubLabel({Text = "- Fixed Alucard Auto Quests checks"});
+
+ChangelogsSection1:SubLabel({Text = "- Changed Item Farming Method (TouchInterest)"});
+
+ChangelogsSection1:Label({Text = "It takes some time to update~"});
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ChangelogsSection1:Divider();
 ChangelogsSection1:Paragraph({Header = "Flameware 1.09 [Stands Awakening]",Body = "* The following changes:"});
 
 ChangelogsSection1:SubLabel({Text = "- Added Support for Stands Awakening!~"});
@@ -30,13 +47,16 @@ ChangelogsSection1:SubLabel({Text = "- It is in BETA Version"});
 ChangelogsSection1:SubLabel({Text = "- Suggestions are very welcome~"});
 
 ChangelogsSection1:Label({Text = "It takes some time to update~"});
+
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ChangelogsSection1:Divider();
 ChangelogsSection1:Paragraph({Header = "Flameware 1.09 [Sakura Stand]",Body = "* The following changes:"});
 
 ChangelogsSection1:SubLabel({Text = "- Config Folder been renamed~"});
 
 ChangelogsSection1:Label({Text = "It takes some time to update~"});
+
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ChangelogsSection1:Divider();
