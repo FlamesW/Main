@@ -2,8 +2,8 @@
 
 repeat task.wait(0.25) until game:IsLoaded();
 
-getgenv().CurrentVersion = "1.09";
-getgenv().ScriptVersion = "1.09";
+getgenv().CurrentVersion = "1.10";
+getgenv().ScriptVersion = "1.10";
 
 getgenv().MainIcon = "http://www.roblox.com/asset/?id=100500296638402";
 getgenv().Credits = "flames9925";
