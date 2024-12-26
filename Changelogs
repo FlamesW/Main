@@ -1,7 +1,7 @@
 -- // Changelogs \\ [This will be edited any time an update occurs] --
 
 -- [Status]
-getgenv().SakuraStandStatus = "Operational - Last Update: 18/12/2024";
+getgenv().SakuraStandStatus = "Operational - Last Update: 27/12/2024";
 getgenv().StandsAwakeningStatus = "Operational - Last Update: 23/12/2024";
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -21,6 +21,30 @@ ChangelogsSection1:Divider();
 
 -- Changelogs Maker
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ChangelogsSection1:Paragraph({Header = "Flameware 1.11 [Sakura Stand]",Body = "* The following changes:"});
+
+ChangelogsSection1:SubLabel({Text = "- Added Deku Farmer its unlocked now!!!!~"});
+
+ChangelogsSection1:SubLabel({Text = "- Fixed showing false Information about progress."});
+
+ChangelogsSection1:SubLabel({Text = "- Removed Weather Scripts Section."});
+
+ChangelogsSection1:SubLabel({Text = "- Changed the Position of the Features."});
+
+ChangelogsSection1:SubLabel({Text = "- Removed The Halloween Related Scripts (!)"});
+
+ChangelogsSection1:SubLabel({Text = "- Minimized the chances of flinged mob occurances."});
+
+ChangelogsSection1:SubLabel({Text = "- Auto Reset Items CD will not reset when in combat!!!"});
+
+ChangelogsSection1:SubLabel({Text = "- Entities Esp will ignore any Dummy now!~"});
+
+ChangelogsSection1:Label({Text = "It takes some time to update~"});
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ChangelogsSection1:Divider();
+ChangelogsSection1:Label({Text = "It takes some time to update~"});
 
 ChangelogsSection1:Paragraph({Header = "Flameware 1.10 [Stands Awakening]",Body = "* The following changes:"});
 
@@ -35,6 +59,7 @@ ChangelogsSection1:SubLabel({Text = "- Fixed Alucard Auto Quests checks"});
 ChangelogsSection1:SubLabel({Text = "- Changed Item Farming Method (TouchInterest)"});
 
 ChangelogsSection1:Label({Text = "It takes some time to update~"});
+
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ChangelogsSection1:Divider();
@@ -119,6 +144,7 @@ ChangelogsSection1:SubLabel({Text = "- Added Search bar to every dropdown."});
 ChangelogsSection1:Label({Text = "It takes some time to update~"});
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ChangelogsSection1:Divider();
 ChangelogsSection1:Paragraph({Header = "Flameware 1.06 [Sakura Stand]",Body = "* The following changes:"});
 
@@ -145,6 +171,7 @@ ChangelogsSection1:SubLabel({Text = "- Removed random notifs (Will return soon).
 ChangelogsSection1:Label({Text = "It takes some time to update~"});
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ChangelogsSection1:Divider();
 ChangelogsSection1:Paragraph({Header = "Flameware 1.05 [Sakura Stand]",Body = "* The following changes:"});
 
@@ -161,6 +188,7 @@ ChangelogsSection1:SubLabel({Text = "- Fixed random notifs"});
 ChangelogsSection1:Label({Text = "It takes some time to update~"});
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ChangelogsSection1:Divider();
 ChangelogsSection1:Paragraph({Header = "Flameware 1.04 [Sakura Stand]",Body = "* The following changes:"});
 
@@ -177,6 +205,7 @@ ChangelogsSection1:SubLabel({Text = "- Added so many stuff  OwO"});
 ChangelogsSection1:Label({Text = "It takes some time to update~"});
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ChangelogsSection1:Divider();
 ChangelogsSection1:Paragraph({Header = "Flameware 1.03 [Sakura Stand]",Body = "* The following changes:"});
 
@@ -193,6 +222,7 @@ ChangelogsSection1:SubLabel({Text = "- Auto toggles are now automatic for import
 ChangelogsSection1:Label({Text = "It takes some time to update~"});
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ChangelogsSection1:Divider();
 ChangelogsSection1:Paragraph({Header = "Flameware 1.02 [Settings]",Body = "* The following changes:"});
 
@@ -209,12 +239,14 @@ ChangelogsSection1:SubLabel({Text = "- Improved Snitch Detections"});
 ChangelogsSection1:Label({Text = "It takes some time to update~"});
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ChangelogsSection1:Divider();
 ChangelogsSection1:Paragraph({Header = "Flameware 1.01 [Sakura Stand]",Body = "* The following changes:"});
 
 ChangelogsSection1:SubLabel({Text = "- Script released!"});
 
 ChangelogsSection1:Label({Text = "This the beginning of our journey!"});
+
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 -- Supported Games
