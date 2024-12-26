@@ -27,7 +27,7 @@ ChangelogsSection1:SubLabel({Text = "- Added Deku Farmer its unlocked now!!!!~"}
 
 ChangelogsSection1:SubLabel({Text = "- Fixed showing false Information about progress."});
 
-ChangelogsSection1:SubLabel({Text = "- Removed Weather Scripts Section."});
+ChangelogsSection1:SubLabel({Text = "- Removed Weather Scripts Section :(("});
 
 ChangelogsSection1:SubLabel({Text = "- Changed the Position of the Features."});
 
