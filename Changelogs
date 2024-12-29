@@ -2,6 +2,7 @@
 
 -- [Status]
 getgenv().SakuraStandStatus = "Operational - Last Update: 27/12/2024";
+getgenv().ProjectMenacingStatus = "Operational - Last Update: 29/12/2024";
 getgenv().StandsAwakeningStatus = "Operational - Last Update: 23/12/2024";
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -21,6 +22,20 @@ ChangelogsSection1:Divider();
 
 -- Changelogs Maker
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ChangelogsSection1:Paragraph({Header = "Flameware 1.12 [Project Menacing]",Body = "* The following changes:"});
+
+ChangelogsSection1:SubLabel({Text = "- Added Support for Project Menacing!~"});
+
+ChangelogsSection1:SubLabel({Text = "- It is in BETA Version"});
+
+ChangelogsSection1:SubLabel({Text = "- Suggestions are very welcome~"});
+
+ChangelogsSection1:Label({Text = "It takes some time to update~"});
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ChangelogsSection1:Divider();
 ChangelogsSection1:Paragraph({Header = "Flameware 1.11 [Sakura Stand]",Body = "* The following changes:"});
 
 ChangelogsSection1:SubLabel({Text = "- Added Deku Farmer its unlocked now!!!!~"});
@@ -257,6 +272,7 @@ ChangelogsSection2:Header({Text = "Supported Games"});
 ChangelogsSection2:Divider();
 
 ChangelogsSection2:Paragraph({Header = "* Sakura Stand",Body = getgenv().SakuraStandStatus});
+ChangelogsSection2:Paragraph({Header = "* Project Menacing",Body = getgenv().ProjectMenacingStatus});
 ChangelogsSection2:Paragraph({Header = "* Stands Awakening",Body = getgenv().StandsAwakeningStatus});
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
