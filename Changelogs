@@ -283,7 +283,7 @@ ChangelogsSection3:Header({Text = "Suggestion Reports"});
 
 ChangelogsSection3:Divider();
 
-ChangelogsSection3:Paragraph({Header = "* Before you write:",Body = "Click on the button and paste to your notepad, Then edit it."});
+ChangelogsSection3:Paragraph({Header = "* Before you write:",Body = "Click on the button and paste to your notepad, Then edit it. Make sure to state the game you are in!"});
 
 ChangelogsSection3:Button({Name = "Get Suggestion Format",Callback = function()
      getgenv().GetFormat();
@@ -309,7 +309,7 @@ ChangelogsSection4:Header({Text = "Bug Reports"});
 
 ChangelogsSection4:Divider();
 
-ChangelogsSection4:Paragraph({Header = "* Before you write:",Body = "Click on the button and paste to your notepad, Then edit it."});
+ChangelogsSection4:Paragraph({Header = "* Before you write:",Body = "Click on the button and paste to your notepad, Then edit it. Make sure to state the game you are in!"});
 
 ChangelogsSection4:Button({Name = "Get Bug Report Format",Callback = function()
      getgenv().GetFormat();
