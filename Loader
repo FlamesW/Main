@@ -1,7 +1,7 @@
 -- // Do not execute this directly, Visit: https://github.com/FlamesW/Main/blob/home/README.md
 
 repeat task.wait(0.25) until game:IsLoaded();
-getgenv().CurrentVersion = "1.11";getgenv().ScriptVersion = "1.11";
+getgenv().CurrentVersion = "1.12";getgenv().ScriptVersion = "1.12";
 getgenv().MainIcon = "http://www.roblox.com/asset/?id=100500296638402";
 getgenv().Credits = "flames9925";
 
@@ -9,10 +9,14 @@ getgenv().Credits = "flames9925";
 local SupportedGames = {
     Sakura_Stand = {8534845015,15552367548};
     Stands_Awakening = {5780309044};
+    Project_Menacing = {17740608247};
+
 }
 
 if table.find(SupportedGames.Sakura_Stand,game.PlaceId) then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/FlamesW/Main/home/SS.lua"))();
 elseif table.find(SupportedGames.Stands_Awakening,game.PlaceId) then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/FlamesW/Main/home/SA.lua"))();
+elseif table.find(SupportedGames.Project_Menacing,game.PlaceId) then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/FlamesW/Main/home/PM.lua"))();
 end
