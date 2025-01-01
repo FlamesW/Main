@@ -1,7 +1,7 @@
 -- // Do not execute this directly, Visit: https://github.com/FlamesW/Main/blob/home/README.md
 
 repeat task.wait(0.25) until game:IsLoaded();
-getgenv().CurrentVersion = "1.12";getgenv().ScriptVersion = "1.12";
+getgenv().CurrentVersion = "1.13";getgenv().ScriptVersion = "1.13";
 getgenv().MainIcon = "http://www.roblox.com/asset/?id=100500296638402";
 getgenv().Credits = "flames9925";
 
