@@ -25,13 +25,15 @@ ChangelogsSection1:Divider();
 
 ChangelogsSection1:Paragraph({Header = "Flameware 1.13 [Project Menacing]",Body = "* The following changes:"});
 
-ChangelogsSection1:SubLabel({Text = "- Added Support for Shiny Arrows in Stand Farmer~"});
+ChangelogsSection1:SubLabel({Text = "- Added Support for Shiny Arrows~"});
 
-ChangelogsSection1:SubLabel({Text = "- Removed Fighting Section (Temporarily)~"});
+ChangelogsSection1:SubLabel({Text = "- Removed Fighting Section (TEMP)~"});
 
-ChangelogsSection1:SubLabel({Text = "- Added Auto Buy/Take Arrows + Rokakakas (Overpowered)"});
+ChangelogsSection1:SubLabel({Text = "- Added Auto Buy/Take Feautre (Overpowered)"});
 
-ChangelogsSection1:SubLabel({Text = "- Removed Cookies from Information Section"});
+ChangelogsSection1:SubLabel({Text = "- Removed Cookies from Info Section"});
+
+ChangelogsSection1:SubLabel({Text = "- Changed Selective Attacks Defaults"});
 
 ChangelogsSection1:Label({Text = "It takes some time to update~"});
 
