@@ -2,7 +2,7 @@
 
 -- [Status]
 getgenv().SakuraStandStatus = "Operational - Last Update: 27/12/2024";
-getgenv().ProjectMenacingStatus = "Operational - Last Update: 29/12/2024";
+getgenv().ProjectMenacingStatus = "Operational - Last Update: 01/01/2025";
 getgenv().StandsAwakeningStatus = "Operational - Last Update: 23/12/2024";
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -23,6 +23,21 @@ ChangelogsSection1:Divider();
 -- Changelogs Maker
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+ChangelogsSection1:Paragraph({Header = "Flameware 1.13 [Project Menacing]",Body = "* The following changes:"});
+
+ChangelogsSection1:SubLabel({Text = "- Added Support for Shiny Arrows in Stand Farmer~"});
+
+ChangelogsSection1:SubLabel({Text = "- Removed Fighting Section (Temporarily)~"});
+
+ChangelogsSection1:SubLabel({Text = "- Added Auto Buy/Take Arrows + Rokakakas (Overpowered)"});
+
+ChangelogsSection1:SubLabel({Text = "- Removed Cookies from Information Section"});
+
+ChangelogsSection1:Label({Text = "It takes some time to update~"});
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ChangelogsSection1:Divider();
 ChangelogsSection1:Paragraph({Header = "Flameware 1.12 [Project Menacing]",Body = "* The following changes:"});
 
 ChangelogsSection1:SubLabel({Text = "- Added Support for Project Menacing!~"});
