@@ -5,22 +5,24 @@
 ### Join the discord server :] [Here](https://dsc.gg/Flames-Community)
 
 ```lua
-getgenv().Settings = { -- true = on | false = off
+getgenv().Settings = { -- // true = on | false = off
     ["Interface"] = {
-        ["VisibilityUI"] = "J", -- // Key you want to be pressed to Show/Hide UI.
-        ["DraggingStyle"] = 1, -- // 1 or 2 choose what kind of dragging style you want.
-        ["AcrylicBlur"] = false, -- // Optional, but recommened with a blur since UI is big
+        ["VisibilityUI"] = "V", -- // Key you want to be pressed to Show/Hide UI.
+        ["CustomThemeUI"] = {0,0,0}, -- // Soft colors are recommended...
+        ["DraggingStyle"] = 2, -- // (1 or 2) choose what kind of dragging style you want.
+        ["AcrylicBlur"] = true, -- // Optional, but recommended with a blur since UI is big
     },
     ["General"] = {
+        ["MultipleConfig"] = true, -- // When turned on, each Roblox account will have its unique config.
         ["StreamingMode"] = false, -- // Optional for showcasers and streamers.
-        ["UpdatePrompts"] = true, -- // Will notify you when theres a new update.
+        ["UpdatePrompts"] = true, -- // Will notify you when there's a new update.
     },
     ["Security"] = {
         ["ModeratorDetections"] = true, -- // Recommended to enable this.
-        ["SnitchDetections"] = false, -- // Optional, but recommened to use it.
+        ["SnitchDetections"] = false, -- // Optional, but recommended to use it.
     },
+    ["PerformanceMode"] = true, -- // Recommended for low-end devices.
 };
-
 -- https://discord.gg/yeWdNBtxrP
 loadstring(game:HttpGet("https://raw.githubusercontent.com/FlamesW/Main/home/Loader"))();
 ```
