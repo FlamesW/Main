@@ -22,7 +22,17 @@ ChangelogsSection1:Divider();
 
 -- Changelogs Maker
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ChangelogsSection1:Paragraph({Header = "Flameware 1.14 [Settings]",Body = "* The following changes:"});
 
+ChangelogsSection1:SubLabel({Text = "- Config will have support for ALTS!"});
+
+ChangelogsSection1:SubLabel({Text = "- Previous Config wouldnt work."});
+
+ChangelogsSection1:Label({Text = "It takes some time to update~"});
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ChangelogsSection1:Divider();
 ChangelogsSection1:Paragraph({Header = "Flameware 1.13 [Project Menacing]",Body = "* The following changes:"});
 
 ChangelogsSection1:SubLabel({Text = "- Added Support for Shiny Arrows~"});
