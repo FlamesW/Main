@@ -22,6 +22,18 @@ ChangelogsSection1:Divider();
 
 -- Changelogs Maker
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ChangelogsSection1:Paragraph({Header = "Flameware 1.15 [Settings]",Body = "* The following changes:"});
+
+ChangelogsSection1:SubLabel({Text = "- New Settings have been added"});
+
+ChangelogsSection1:SubLabel({Text = "- I'm totally not speedrunning versions :D"});
+
+ChangelogsSection1:Label({Text = "It takes some time to update~"});
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ChangelogsSection1:Divider();
 ChangelogsSection1:Paragraph({Header = "Flameware 1.14 [Settings]",Body = "* The following changes:"});
 
 ChangelogsSection1:SubLabel({Text = "- Config will have support for ALTS!"});
