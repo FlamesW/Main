@@ -31,5 +31,5 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/FlamesW/Main/home/Loa
 - [Flames](https://discord.com/users/656455297979908106) | Scripter / Support / Owner ✍️
 
 **Thanks to these people: 👇**
-- [Biggaboy212](https://discord.gg/FWC8PpWtQv) | UI Library 👍
+- [Biggaboy212](https://discord.gg/FWC8PpWtQv) | UI Library
 - [Sirius Team](https://discord.gg/siriusroblox) | Some Sources 👍
