@@ -21,7 +21,6 @@ getgenv().Settings = { -- // true = on | false = off
         ["ModeratorDetections"] = true, -- // Recommended to enable this.
         ["SnitchDetections"] = false, -- // Optional, but recommended to use it.
     },
-    ["PerformanceMode"] = false, -- // Recommended for low-end devices.
 };
 
 -- https://discord.gg/yeWdNBtxrP
