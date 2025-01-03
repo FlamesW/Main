@@ -23,6 +23,7 @@ getgenv().Settings = { -- // true = on | false = off
     },
     ["PerformanceMode"] = true, -- // Recommended for low-end devices.
 };
+
 -- https://discord.gg/yeWdNBtxrP
 loadstring(game:HttpGet("https://raw.githubusercontent.com/FlamesW/Main/home/Loader"))();
 ```
