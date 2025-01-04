@@ -2,7 +2,7 @@
 
 -- [Status]
 getgenv().SakuraStandStatus = "Operational - Last Update: 27/12/2024";
-getgenv().ProjectMenacingStatus = "Unoperational - Last Update: 01/01/2025";
+getgenv().ProjectMenacingStatus = "Unoperational - Last Update: 04/01/2025";
 getgenv().StandsAwakeningStatus = "Operational - Last Update: 23/12/2024";
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
