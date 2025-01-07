@@ -322,7 +322,8 @@ ChangelogsSection3:Header({Text = "Suggestion Reports"});
 
 ChangelogsSection3:Divider();
 
-ChangelogsSection3:Paragraph({Header = "* Before you write:",Body = "Make sure to state the game you want, Please dont be a fucking retard!"});
+ChangelogsSection3:Paragraph({Header = "* Before you write:",Body = "Some retard just spammed the webhook!!!"});
+-- Make sure to state the game you want, Please dont be a fucking retard!
 
 ChangelogsSection3:Input({Name = "Type here whatever~",Placeholder = 'Write here',AcceptedCharacters = "All",
     Callback = function(Input)
@@ -344,7 +345,8 @@ ChangelogsSection4:Header({Text = "Bug Reports"});
 
 ChangelogsSection4:Divider();
 
-ChangelogsSection4:Paragraph({Header = "* Before you write:",Body = "Click on the format button and paste to your notepad, Then edit it. Make sure to state the game you are in!"});
+ChangelogsSection4:Paragraph({Header = "* Before you write:",Body = "Some retard just spammed the webhook!!!"});
+-- Click on the format button and paste to your notepad, Then edit it. Make sure to state the game you are in!
 
 ChangelogsSection4:Button({Name = "Get Bug Report Format",Callback = function()
      getgenv().GetFormat();
