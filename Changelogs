@@ -7,8 +7,8 @@ getgenv().StandsAwakeningStatus = "Operational - Last Update: 23/12/2024";
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 -- // Do not troll please :(
-getgenv().SuggestChannel = "https://discord.com/api/webhooks/1308099393517518899/KLsiHlYQ-yvGP4V2uNN9sfKS-l85tPqsGWNsYjWG9jVpLNI5qhCZuOptwMy5xzWg6ziX";
-getgenv().ReportChannel = "https://discord.com/api/webhooks/1308099539252678657/wSrgtqjcFwYGZxls93EMEKE1d45yEysSHvLolajrfvx-WMON0d5XgcGEo-7XasrFlNjX";
+-- getgenv().SuggestChannel = "https://discord.com/api/webhooks/1308099393517518899/KLsiHlYQ-yvGP4V2uNN9sfKS-l85tPqsGWNsYjWG9jVpLNI5qhCZuOptwMy5xzWg6ziX";
+-- getgenv().ReportChannel = "https://discord.com/api/webhooks/1308099539252678657/wSrgtqjcFwYGZxls93EMEKE1d45yEysSHvLolajrfvx-WMON0d5XgcGEo-7XasrFlNjX";
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 -- Title
@@ -330,8 +330,8 @@ ChangelogsSection3:Input({Name = "Type here whatever~",Placeholder = 'Write here
     end,
 },"SuggestInput");
 
-ChangelogsSection3:Button({Name = "Submit Suggestion",Callback = function()
-    getgenv().SubmitSuggestion();
+ChangelogsSection3:Button({Name = "Submit Suggestion [LOCKED]",Callback = function()
+    -- getgenv().SubmitSuggestion();
 end});
 
 ChangelogsSection3:SubLabel({Text = "Disclaimer: Usernames will be logged."});
@@ -356,8 +356,8 @@ ChangelogsSection4:Input({Name = "Type here whatever~",Placeholder = 'Write here
     end,
 },"BugInput");
 
-ChangelogsSection4:Button({Name = "Submit Report",Callback = function()
-    getgenv().SubmitReport();
+ChangelogsSection4:Button({Name = "Submit Report [LOCKED]",Callback = function()
+    -- getgenv().SubmitReport();
 end});
 
 ChangelogsSection4:SubLabel({Text = "Disclaimer: Usernames will be logged."});
