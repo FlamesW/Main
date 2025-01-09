@@ -23,6 +23,21 @@ ChangelogsSection1:Divider();
 -- Changelogs Maker
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+ChangelogsSection1:Paragraph({Header = "Flameware 1.17 [Project Menacing]",Body = "* The following changes:"});
+
+ChangelogsSection1:SubLabel({Text = "- Added Shadow DIO Farmer!~"});
+
+ChangelogsSection1:SubLabel({Text = "- Added OP Shiny Arrow Farmer!"});
+
+ChangelogsSection1:SubLabel({Text = "- Removed Christmas Event Stuff."});
+
+ChangelogsSection1:SubLabel({Text = "- Useless skins from Stand Farmer."});
+
+ChangelogsSection1:Label({Text = "It takes some time to update~"});
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ChangelogsSection1:Divider();
 ChangelogsSection1:Paragraph({Header = "Flameware 1.16 [Project Menacing]",Body = "* The following changes:"});
 
 ChangelogsSection1:SubLabel({Text = "- Added back Project Menacing"});
