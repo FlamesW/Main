@@ -3,20 +3,20 @@
 repeat task.wait(0.25) until game:IsLoaded();
 getgenv().CurrentVersion = "1.15";getgenv().ScriptVersion = "1.15";
 getgenv().MainIcon = "http://www.roblox.com/asset/?id=100500296638402";
+
+local Repository = "https://raw.githubusercontent.com/FlamesW/Main/home/";
+local Scr = loadstring(game:HttpGet("https://raw.githubusercontent.com/FlamesW/Resorces/main/Debugger"))();
+local Files = {
+    ["Stands Awakening"] = {
+        File = "SA.lua",
+        Places = {5780309044};
+    },
+    ["Sakura Stand"] = {
+        File = "SS.lua",
+        Places = {8534845015,15552367548};
+    },
+};
+
 getgenv().Credits = "flames9925";
-
--- // Script Launcher \\ --
-local SupportedGames = {
-    Sakura_Stand = {8534845015,15552367548};
-    Stands_Awakening = {5780309044};
-    Project_Menacing = {17740608247};
-
-}
-
-if table.find(SupportedGames.Sakura_Stand,game.PlaceId) then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/FlamesW/Main/home/SS.lua"))();
-elseif table.find(SupportedGames.Stands_Awakening,game.PlaceId) then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/FlamesW/Main/home/SA.lua"))();
-elseif table.find(SupportedGames.Project_Menacing,game.PlaceId) then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/FlamesW/Main/home/PM.lua"))();
-end
+local function LoadFile(b)for c,d in pairs(Files)do if table.find(d.Places,b)then Scr:Notify("Warning","Trying to load "..c.."...",1.5)local e=Repository..d.File;local f,g=pcall(game.HttpGet,game,e)if f and g then local h,i=loadstring(g)if h then local j,k=pcall(h)if j then Scr:Notify("Success","Successfully loaded: "..c,1.5)else Scr:SendNotification("Error","Execution failed: "..k,1.5)end else Scr:Notify("Error","Error loading: "..c,1.5)end else Scr:Notify("Warning","Failed to fetch script for: "..c,1.5)end;return end end;
+Scr:Notify("Warning","This script supports: (Stands Awakening, Sakura Stand, Project Menacing).",15)end;LoadFile(game.PlaceId);
