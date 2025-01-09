@@ -6,9 +6,9 @@ getgenv().ProjectMenacingStatus = "Operational - Last Update: 09/01/2025";
 getgenv().StandsAwakeningStatus = "Operational - Last Update: 23/12/2024";
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
--- // Fuck you bitch :/
--- getgenv().SuggestChannel = "https://discord.com/api/webhooks/1308099393517518899/KLsiHlYQ-yvGP4V2uNN9sfKS-l85tPqsGWNsYjWG9jVpLNI5qhCZuOptwMy5xzWg6ziX";
--- getgenv().ReportChannel = "https://discord.com/api/webhooks/1308099539252678657/wSrgtqjcFwYGZxls93EMEKE1d45yEysSHvLolajrfvx-WMON0d5XgcGEo-7XasrFlNjX";
+-- // Last time I added this someone trolled...
+-- getgenv().SuggestChannel = "https://discord.com/api/webhooks/1326971119852458005/lQE82E5IAUBD26C9IEy1Cme04EClQORlkij9tqvK6YIj-uoEYBEU-c16J0gXPWjm4zE1";
+-- getgenv().ReportChannel = "https://discord.com/api/webhooks/1326971402103820422/Hu5oo3w5u6N309YEb9TJG2EhnXKhq2QMdrkpDv6chSzRHB9hfxxk68ksj_v_Hjy6yWgc";
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 -- Title
@@ -346,8 +346,7 @@ ChangelogsSection3:Header({Text = "Suggestion Reports"});
 
 ChangelogsSection3:Divider();
 
-ChangelogsSection3:Paragraph({Header = "* Before you write:",Body = "Some retard just spammed the webhook!!!"});
--- Make sure to state the game you want, Please dont be a fucking retard!
+ChangelogsSection3:Paragraph({Header = "* Before you write:",Body = "Make sure to state the game you want, It is crucial."});
 
 ChangelogsSection3:Input({Name = "Type here whatever~",Placeholder = 'Write here',AcceptedCharacters = "All",
     Callback = function(Input)
@@ -355,7 +354,7 @@ ChangelogsSection3:Input({Name = "Type here whatever~",Placeholder = 'Write here
     end,
 },"SuggestInput");
 
-ChangelogsSection3:Button({Name = "Submit Suggestion [LOCKED]",Callback = function()
+ChangelogsSection3:Button({Name = "Submit Suggestion",Callback = function()
     -- getgenv().SubmitSuggestion();
 end});
 
@@ -369,9 +368,8 @@ ChangelogsSection4:Header({Text = "Bug Reports"});
 
 ChangelogsSection4:Divider();
 
-ChangelogsSection4:Paragraph({Header = "* Before you write:",Body = "Some retard just spammed the webhook!!!"});
--- Click on the format button and paste to your notepad, Then edit it. Make sure to state the game you are in!
-
+ChangelogsSection4:Paragraph({Header = "* Before you write:",Body = "Click on the format button and paste to your notepad, Then edit it. Make sure to state the game you are in!"});
+ 
 ChangelogsSection4:Button({Name = "Get Bug Report Format",Callback = function()
      getgenv().GetFormat();
 end})
@@ -382,7 +380,7 @@ ChangelogsSection4:Input({Name = "Type here whatever~",Placeholder = 'Write here
     end,
 },"BugInput");
 
-ChangelogsSection4:Button({Name = "Submit Report [LOCKED]",Callback = function()
+ChangelogsSection4:Button({Name = "Submit Report",Callback = function()
     -- getgenv().SubmitReport();
 end});
 
