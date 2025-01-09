@@ -2,7 +2,7 @@
 
 -- [Status]
 getgenv().SakuraStandStatus = "Operational - Last Update: 27/12/2024";
-getgenv().ProjectMenacingStatus = "Unoperational - Last Update: 04/01/2025";
+getgenv().ProjectMenacingStatus = "Operational - Last Update: 09/01/2025";
 getgenv().StandsAwakeningStatus = "Operational - Last Update: 23/12/2024";
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -23,6 +23,15 @@ ChangelogsSection1:Divider();
 -- Changelogs Maker
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+ChangelogsSection1:Paragraph({Header = "Flameware 1.16 [Project Menacing]",Body = "* The following changes:"});
+
+ChangelogsSection1:SubLabel({Text = "- Added back Project Menacing"});
+
+ChangelogsSection1:Label({Text = "It takes some time to update~"});
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ChangelogsSection1:Divider();
 ChangelogsSection1:Paragraph({Header = "Flameware 1.15 [Settings]",Body = "* The following changes:"});
 
 ChangelogsSection1:SubLabel({Text = "- New Settings have been added"});
