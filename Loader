@@ -1,7 +1,7 @@
 -- // Do not execute this directly, Visit: https://github.com/FlamesW/Main/blob/home/README.md
 
 repeat task.wait(0.25) until game:IsLoaded();
-getgenv().CurrentVersion = "1.15";getgenv().ScriptVersion = "1.15";
+getgenv().CurrentVersion = "1.16";getgenv().ScriptVersion = "1.16";
 getgenv().MainIcon = "http://www.roblox.com/asset/?id=100500296638402";
 
 local Repository = "https://raw.githubusercontent.com/FlamesW/Main/home/";
@@ -10,6 +10,10 @@ local Files = {
     ["Stands Awakening"] = {
         File = "SA.lua",
         Places = {5780309044};
+    },
+    ["Project Menacing"] = {
+        File = "PM.lua",
+        Places = {17740608247};
     },
     ["Sakura Stand"] = {
         File = "SS.lua",
