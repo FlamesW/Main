@@ -1,6 +1,6 @@
 -- // Changelogs \\ [This will be edited any time an update occurs] --
 
--- [Status]
+-- // [Status]
 getgenv().SakuraStandStatus = "Operational - Last Update: 27/12/2024";
 getgenv().ProjectMenacingStatus = "Operational - Last Update: 09/01/2025";
 getgenv().StandsAwakeningStatus = "Operational - Last Update: 23/12/2024";
@@ -11,7 +11,7 @@ getgenv().StandsAwakeningStatus = "Operational - Last Update: 23/12/2024";
 -- getgenv().ReportChannel = "https://discord.com/api/webhooks/1326971402103820422/Hu5oo3w5u6N309YEb9TJG2EhnXKhq2QMdrkpDv6chSzRHB9hfxxk68ksj_v_Hjy6yWgc";
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
--- Title
+-- // Title
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 local ChangelogsSection1 = getgenv().ChangelogsTab:Section({Side = "Left"});
 
@@ -20,7 +20,7 @@ ChangelogsSection1:Header({Text = "Changelogs - Updates"});
 ChangelogsSection1:Divider();
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
--- Changelogs Maker
+-- // Changelogs Maker
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ChangelogsSection1:Paragraph({Header = "Flameware 1.17 [Project Menacing]",Body = "* The following changes:"});
@@ -327,7 +327,7 @@ ChangelogsSection1:Label({Text = "This the beginning of our journey!"});
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
--- Supported Games
+-- // Supported Games
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 local ChangelogsSection2 = getgenv().ChangelogsTab:Section({Side = "Right"});
 ChangelogsSection2:Header({Text = "Supported Games"});
@@ -339,7 +339,7 @@ ChangelogsSection2:Paragraph({Header = "* Project Menacing",Body = getgenv().Pro
 ChangelogsSection2:Paragraph({Header = "* Stands Awakening",Body = getgenv().StandsAwakeningStatus});
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
--- Suggestion Reports
+-- // Suggestion Reports
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 local ChangelogsSection3 = getgenv().ChangelogsTab:Section({Side = "Right"});
 ChangelogsSection3:Header({Text = "Suggestion Reports"});
@@ -361,7 +361,7 @@ end});
 ChangelogsSection3:SubLabel({Text = "Disclaimer: Usernames will be logged."});
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
--- Bug Reports
+-- // Bug Reports
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 local ChangelogsSection4 = getgenv().ChangelogsTab:Section({Side = "Right"});
 ChangelogsSection4:Header({Text = "Bug Reports"});
