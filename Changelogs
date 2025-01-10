@@ -355,7 +355,7 @@ ChangelogsSection3:Input({Name = "Type here whatever~",Placeholder = 'Write here
 },"SuggestInput");
 
 ChangelogsSection3:Button({Name = "Submit Suggestion",Callback = function()
-    -- getgenv().SubmitSuggestion();
+    getgenv().SubmitSuggestion();
 end});
 
 ChangelogsSection3:SubLabel({Text = "Disclaimer: Usernames will be logged."});
@@ -381,7 +381,7 @@ ChangelogsSection4:Input({Name = "Type here whatever~",Placeholder = 'Write here
 },"BugInput");
 
 ChangelogsSection4:Button({Name = "Submit Report",Callback = function()
-    -- getgenv().SubmitReport();
+    getgenv().SubmitReport();
 end});
 
 ChangelogsSection4:SubLabel({Text = "Disclaimer: Usernames will be logged."});
