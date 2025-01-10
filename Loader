@@ -22,5 +22,5 @@ local Files = {
 };
 
 getgenv().Credits = "flames9925";
-local function LoadFile(b)for c,d in pairs(Files)do if table.find(d.Places,b)then Scr:Notify("Warning","Trying to load "..c.."...",1.5)local e=Repository..d.File;local f,g=pcall(game.HttpGet,game,e)if f and g then local h,i=loadstring(g)if h then local j,k=pcall(h)if j then Scr:Notify("Success","Successfully loaded: "..c,1.5)else Scr:SendNotification("Error","Execution failed: "..k,1.5)end else Scr:Notify("Error","Error loading: "..c,1.5)end else Scr:Notify("Warning","Failed to fetch script for: "..c,1.5)end;return end end;
+local function LoadFile(b)for c,d in pairs(Files)do if table.find(d.Places,b)then Scr:Notify("Warning","Trying to load "..c.."...",1.5)local e=Repository..d.File;local f,g=pcall(game.HttpGet,game,e)if f and g then local h,i=loadstring(g)if h then local j,k=pcall(h)if j then Scr:Notify("Success","Successfully loaded: "..c,1.5)else Scr:Notify("Error","Execution failed: "..k,1.5)end else Scr:Notify("Error","Error loading: "..c,1.5)end else Scr:Notify("Warning","Failed to fetch script for: "..c,1.5)end;return end end;
 Scr:Notify("Warning","This script supports: (Stands Awakening, Sakura Stand, Project Menacing).",15)end;LoadFile(game.PlaceId);
