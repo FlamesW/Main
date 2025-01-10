@@ -3,9 +3,9 @@ repeat task.wait(0.25) until game:IsLoaded();
 getgenv().CurrentVersion = "1.17";getgenv().ScriptVersion = "1.17";
 getgenv().MainIcon = "http://www.roblox.com/asset/?id=100500296638402";
 
------------------------------------------------------------------------------------------------------------------
-if isfile("FlamewareDiscordInviter") then if math.random(1,100) <=10 then delfile("FlamewareDiscordInviter") end end;
------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------
+if isfile("FlamewareDiscordInviter") then if math.random(1,100) <= 10 then delfile("FlamewareDiscordInviter") end end;
+----------------------------------------------------------------------------------------------------------------------
 
 local Invite = "https://dsc.gg/Flames-Community";
 local Repository = "https://raw.githubusercontent.com/FlamesW/Main/home/";
