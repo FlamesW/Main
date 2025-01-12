@@ -24,9 +24,7 @@ ChangelogsSection1:Divider();
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ChangelogsSection1:Paragraph({Header = "Flameware 1.19 [Settings]",Body = "* The following changes:"});
 
-ChangelogsSection1:SubLabel({Text = "- Added 1 more section in settings~"});
-
-ChangelogsSection1:SubLabel({Text = "- This is the second time lol~"});
+ChangelogsSection1:SubLabel({Text = "- Added 1 more section in settings lol"});
 
 ChangelogsSection1:Label({Text = "It takes some time to update~"});
 
