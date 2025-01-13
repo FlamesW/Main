@@ -7,8 +7,8 @@ getgenv().StandsAwakeningStatus = "Operational - Last Update: 23/12/2024";
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 -- // Last time I added this someone trolled...
-getgenv().SuggestChannel = "https://discord.com/api/webhooks/1326971119852458005/lQE82E5IAUBD26C9IEy1Cme04EClQORlkij9tqvK6YIj-uoEYBEU-c16J0gXPWjm4zE1";
-getgenv().ReportChannel = "https://discord.com/api/webhooks/1326971402103820422/Hu5oo3w5u6N309YEb9TJG2EhnXKhq2QMdrkpDv6chSzRHB9hfxxk68ksj_v_Hjy6yWgc";
+getgenv().SuggestChannel = "https://discord.com/api/webhooks/1328279411115688007/D6XPkEvSj6SpbUrwbLoAVfo4vdquICNiq8z6N5Ftv-YPWRLgATjigjGxzQj_5VPDTS-9";
+getgenv().ReportChannel = "https://discord.com/api/webhooks/1328279655114997831/qAKhUT_B0D7fku1HmySMcw1PwfCD5zHyBLJtpk6NrNe1LJdqozyOferxjYpJXqoYYIMb";
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 -- // Title
