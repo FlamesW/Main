@@ -24,7 +24,7 @@ ChangelogsSection1:Divider();
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ChangelogsSection1:Paragraph({Header = "Flameware 1.20 [Settings]",Body = "* The following changes:"});
 
-ChangelogsSection1:SubLabel({Text = "- Changed config paths"});
+ChangelogsSection1:SubLabel({Text = "- Changed config paths (check workspace)"});
 
 ChangelogsSection1:SubLabel({Text = "- They are more optimized now!"});
 
