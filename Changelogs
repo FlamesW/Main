@@ -7,7 +7,7 @@ getgenv().StandsAwakeningStatus = "Operational - Last Update: 23/12/2024";
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 -- // Webhook URLS, to know more details why i protect the webhooks then visit: https://github.com/FlamesW/Resorces/blob/main/WebhooksCL
-loadstring(game:HttpGet("https://raw.githubusercontent.com/FlamesW/Resorces/refs/heads/main/WebhooksCL"))();
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FlamesW/Resorces/main/WebhooksCL"))();
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 -- // Title
