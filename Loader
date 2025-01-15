@@ -1,12 +1,15 @@
 -- // Do not execute this directly, Visit: https://github.com/FlamesW/Main/blob/home/README.md
-repeat task.wait(0.25) until game:IsLoaded();
+repeat task.wait(0.1) until game:IsLoaded();
+
+-- // Global Variables \\ --
 getgenv().CurrentVersion = "1.20";getgenv().ScriptVersion = "1.20";
 getgenv().MainIcon = "http://www.roblox.com/asset/?id=100500296638402";
 
-----------------------------------------------------------------------------------------------------------------------
+---------- // Discord Inviter \\ -------------------------------------------------------------------------------------
 if isfile("FlamewareDiscordInviter") then if math.random(1,100) <= 10 then delfile("FlamewareDiscordInviter") end end;
 ----------------------------------------------------------------------------------------------------------------------
 
+-- // Dependencies \\ --
 local Invite = "https://dsc.gg/Flames-Community";
 local Repository = "https://raw.githubusercontent.com/FlamesW/Main/home/";
 local Discord = loadstring(game:HttpGet("https://raw.githubusercontent.com/FlamesW/Resorces/main/DiscordInviter"))();
@@ -27,7 +30,9 @@ local Files = {
     },
 };
 
-getgenv().Credits = "flames9925";
+-- // Loading Source \\ --
+getgenv().Credits = "flames9925"; -- // Credits.
+if setfflag then setfflag("AbuseReportScreenshot","False");setfflag("AbuseReportScreenshotPercentage",0) end; -- // Anti abuse report.
 if not isfile("FlamewareDiscordInviter")then writefile("FlamewareDiscordInviter",Invite)Discord.create("Welcome to Flameware "..tostring(getgenv().CurrentVersion).." :)","Would you like to join my discord server for updates?","Accept","Cancel",function(a)if a then setclipboard(Invite)Scr:Notify("Success","Discord link copied to clipboard!~",5)task.wait(0.35)Scr:Notify("Info","The link is: "..Invite,10)end end)end;
 local function LoadFile(b)for c,d in pairs(Files)do if table.find(d.Places,b)then Scr:Notify("Warning","Trying to load "..c.."...",1.5)local e=Repository..d.File;local f,g=pcall(game.HttpGet,game,e)if f and g then local h,i=loadstring(g)if h then local j,k=pcall(h)if j then Scr:Notify("Success","Successfully loaded: "..c,1.5)else Scr:Notify("Error","Execution failed: "..k,1.5)end else Scr:Notify("Error","Error loading: "..c,1.5)end else Scr:Notify("Warning","Failed to fetch script for: "..c,1.5)end;return end end;
 Scr:Notify("Warning","This script supports: (Stands Awakening, Sakura Stand, Project Menacing).",15)end;LoadFile(game.PlaceId);
