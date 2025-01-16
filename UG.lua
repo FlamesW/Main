@@ -54,10 +54,16 @@ HomeTab:Toggle({Title = "Auto Claim Time Rewards",Desc = 'This will claim time r
 
     while getgenv().AutoClaimTimeRewards == true do 
         pcall(function()
-            for i = 1,5 do
-                local args = {[1] = "reward"..i};
-                game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("rewards"):FireServer(unpack(args));
-            end            
+            local args = {[1] = "reward1"};
+            game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("rewards"):FireServer(unpack(args));
+            local args = {[1] = "reward2"};
+            game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("rewards"):FireServer(unpack(args));
+            local args = {[1] = "reward3"};
+            game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("rewards"):FireServer(unpack(args));   
+            local args = {[1] = "reward4"};
+            game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("rewards"):FireServer(unpack(args));  
+            local args = {[1] = "reward5"};
+            game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("rewards"):FireServer(unpack(args));     
         end)      
         task.wait(5);
     end    
