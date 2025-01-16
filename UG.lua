@@ -182,7 +182,7 @@ CleaningTab:Toggle({Title = "Auto Complete Cleaning Quest",Desc = "This will Aut
     while getgenv().AutoCleanQuest == true do 
         pcall(function()
             if not BackPack:FindFirstChild("Mop") and not Char:FindFirstChild("Mop") then
-                game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1540.6971435546875,199.77005004882812,272.5807189941406);
+                Char.HumanoidRootPart.CFrame = CFrame.new(-1540.6971435546875,199.77005004882812,272.5807189941406);
                 local QuestProx = workspace[" "].ProximityPrompt;
                 QuestProx.HoldDuration = 0;QuestProx:InputHoldBegin();QuestProx:InputHoldEnd();
             else
