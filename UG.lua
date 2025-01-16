@@ -1,7 +1,7 @@
 -- // Hello skid, what brings you here? :)
 repeat task.wait(0.25) until game:IsLoaded();
 if not getgenv().CurrentVersion then
-    game:Shutdown(); -- // GRRRRRRRRRRRRRRRRRRRRRRRRRR why is the version variable not assigned >:( ?
+    getgenv().CurrentVersion = "69.69.69"; -- Thehehe~
 end
 
 local WindUI = loadstring(game:HttpGet("https://tree-hub.vercel.app/api/UI/WindUI"))();
