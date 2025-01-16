@@ -2,7 +2,7 @@
 repeat task.wait(0.1) until game:IsLoaded();
 
 -- // Global Variables \\ --
-getgenv().CurrentVersion = "1.20";getgenv().ScriptVersion = "1.20";
+getgenv().CurrentVersion = "1.21";getgenv().ScriptVersion = "1.21";
 getgenv().MainIcon = "http://www.roblox.com/asset/?id=100500296638402";
 
 ---------- // Discord Inviter \\ -------------------------------------------------------------------------------------
@@ -16,6 +16,10 @@ local Discord = loadstring(game:HttpGet("https://raw.githubusercontent.com/Flame
 local Return = loadstring(game:HttpGet("https://raw.githubusercontent.com/FlamesW/Return/home/SameOldPlace"))();
 local Scr = loadstring(game:HttpGet("https://raw.githubusercontent.com/FlamesW/Resorces/main/Debugger"))();
 local Files = {
+    ["Untitled Gym Game"] = {
+        File = "UG.lua",
+        Places = {14708751132};
+    },
     ["Stands Awakening"] = {
         File = "SA.lua",
         Places = {5780309044};
