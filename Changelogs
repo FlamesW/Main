@@ -4,6 +4,7 @@
 getgenv().SakuraStandStatus = "Operational - Last Update: 27/12/2024";
 getgenv().ProjectMenacingStatus = "Operational - Last Update: 09/01/2025";
 getgenv().StandsAwakeningStatus = "Operational - Last Update: 23/12/2024";
+getgenv().SecondPieceStatus = "Operational - Last Update: 17/01/2025";
 getgenv().UntitledGymGameStatus = "Operational - Last Update: 16/01/2025";
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -22,6 +23,19 @@ ChangelogsSection1:Divider();
 
 -- // Changelogs Maker
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ChangelogsSection1:Paragraph({Header = "Flameware 1.22 [Second Piece]",Body = "* The following changes:"});
+
+ChangelogsSection1:SubLabel({Text = "- Added script for the game~"});
+
+ChangelogsSection1:SubLabel({Text = "- It is in BETA!"});
+
+ChangelogsSection1:SubLabel({Text = "- More features will be added soon."});
+
+ChangelogsSection1:Label({Text = "It takes some time to update~"});
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ChangelogsSection1:Divider();
 ChangelogsSection1:Paragraph({Header = "Flameware 1.21 [Untitled Gym Game]",Body = "* The following changes:"});
 
 ChangelogsSection1:SubLabel({Text = "- Added script for the game~"});
@@ -374,6 +388,7 @@ ChangelogsSection2:Divider();
 
 ChangelogsSection2:Paragraph({Header = "* Untitled Gym Game",Body = getgenv().UntitledGymGameStatus});
 ChangelogsSection2:Paragraph({Header = "* Sakura Stand",Body = getgenv().SakuraStandStatus});
+ChangelogsSection2:Paragraph({Header = "* Second Piece",Body = getgenv().SecondPieceStatus});
 ChangelogsSection2:Paragraph({Header = "* Project Menacing",Body = getgenv().ProjectMenacingStatus});
 ChangelogsSection2:Paragraph({Header = "* Stands Awakening",Body = getgenv().StandsAwakeningStatus});
 
