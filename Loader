@@ -2,7 +2,7 @@
 repeat task.wait(0.1) until game:IsLoaded();
 
 -- // Global Variables \\ --
-getgenv().CurrentVersion = "1.21";getgenv().ScriptVersion = "1.21";
+getgenv().CurrentVersion = "1.22";getgenv().ScriptVersion = "1.22";
 getgenv().MainIcon = "http://www.roblox.com/asset/?id=100500296638402";
 
 ---------- // Discord Inviter \\ -------------------------------------------------------------------------------------
@@ -31,6 +31,10 @@ local Files = {
     ["Sakura Stand"] = {
         File = "SS.lua",
         Places = {8534845015,15552367548};
+    },
+    ["Second Piece"] = {
+        File = "SP.lua",
+        Places = {15049111150};
     },
 };
 
