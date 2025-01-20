@@ -50,6 +50,8 @@ ChangelogsSection1:SubLabel({Text = "- Added Boss Farmer."});
 
 ChangelogsSection1:SubLabel({Text = "- Hueco map will get deleted to fix stuff."});
 
+ChangelogsSection1:SubLabel({Text = "- Semi God Mode in Farming section now."});
+
 ChangelogsSection1:Label({Text = "It takes some time to update~"});
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
