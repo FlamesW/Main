@@ -24,6 +24,35 @@ ChangelogsSection1:Divider();
 -- // Changelogs Maker
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+ChangelogsSection1:Paragraph({Header = "Flameware 1.23 [Second Piece]",Body = "* The following changes:"});
+
+ChangelogsSection1:SubLabel({Text = "- Fixed Tool Attacking once."});
+
+ChangelogsSection1:SubLabel({Text = "- Improved Farming Offsets."});
+
+ChangelogsSection1:SubLabel({Text = "- Added Tool Equipper."});
+
+ChangelogsSection1:SubLabel({Text = "- Added Selective Attacks."});
+
+ChangelogsSection1:SubLabel({Text = "- Added Shadow Quest Mask TPS."});
+
+ChangelogsSection1:SubLabel({Text = "- Added Item Sniper Buyer."});
+
+ChangelogsSection1:SubLabel({Text = "- Added Auto Roll Races~"});
+
+ChangelogsSection1:SubLabel({Text = "- Added Auto Chest Farmer"});
+
+ChangelogsSection1:SubLabel({Text = "- Added Item Farmer."});
+
+ChangelogsSection1:SubLabel({Text = "- Added Boss Farmer."});
+
+ChangelogsSection1:SubLabel({Text = "- Hueco map will get deleted to fix stuff."});
+
+ChangelogsSection1:Label({Text = "It takes some time to update~"});
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ChangelogsSection1:Divider();
 ChangelogsSection1:Paragraph({Header = "Flameware 1.22 [Second Piece]",Body = "* The following changes:"});
 
 ChangelogsSection1:SubLabel({Text = "- Added script for the game~"});
