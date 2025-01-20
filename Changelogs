@@ -42,6 +42,8 @@ ChangelogsSection1:SubLabel({Text = "- Added Auto Roll Races~"});
 
 ChangelogsSection1:SubLabel({Text = "- Added Auto Chest Farmer"});
 
+ChangelogsSection1:SubLabel({Text = "- Added Auto Miner"});
+
 ChangelogsSection1:SubLabel({Text = "- Added Item Farmer."});
 
 ChangelogsSection1:SubLabel({Text = "- Added Boss Farmer."});
