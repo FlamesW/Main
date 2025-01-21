@@ -2,7 +2,7 @@
 repeat task.wait(0.1) until game:IsLoaded();
 
 -- // Global Variables \\ --
-getgenv().CurrentVersion = "1.23";getgenv().ScriptVersion = "1.23";
+getgenv().CurrentVersion = "1.24";getgenv().ScriptVersion = "1.24";
 getgenv().MainIcon = "http://www.roblox.com/asset/?id=100500296638402";
 
 ---------- // Discord Inviter \\ -------------------------------------------------------------------------------------
