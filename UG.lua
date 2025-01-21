@@ -17,6 +17,11 @@ local Window = WindUI:CreateWindow({
     HasOutline = true,
 })
 
+-- // Anti Cheat \\ --
+task.spawn(function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/FlamesW/Resorces/main/UntitledGymGameAntiCheat"))();
+end)
+
 -- // Variables \\ --
 local BoxingPath = workspace.punchingMachines["Punching Machine"];
 local CleaningPath = workspace.DirtParts;
@@ -184,7 +189,7 @@ CleaningTab:Toggle({Title = "Auto Complete Cleaning Quest",Desc = "This will Aut
             if not BackPack:FindFirstChild("Mop") and not Char:FindFirstChild("Mop") then
                 Char.HumanoidRootPart.CFrame = CFrame.new(-1540.6971435546875,199.77005004882812,272.5807189941406);
                 local QuestProx = workspace[" "].ProximityPrompt;
-                QuestProx.HoldDuration = 0;QuestProx:InputHoldBegin();QuestProx:InputHoldEnd();
+                QuestProx.MaxActivationDistance = 80;QuestProx.RequiresLineOfSight = false;QuestProx.HoldDuration = 0;QuestProx:InputHoldBegin();QuestProx:InputHoldEnd();
             else
                 for _,v in pairs(CleaningPath:GetChildren()) do
                     if v:IsA("BasePart") and v.Transparency ~= 1 then
