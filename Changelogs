@@ -4,8 +4,8 @@
 getgenv().SakuraStandStatus = "Operational - Last Update: 27/12/2024";
 getgenv().ProjectMenacingStatus = "Operational - Last Update: 09/01/2025";
 getgenv().StandsAwakeningStatus = "Operational - Last Update: 23/12/2024";
-getgenv().SecondPieceStatus = "Operational - Last Update: 20/01/2025";
-getgenv().UntitledGymGameStatus = "Operational - Last Update: 16/01/2025";
+getgenv().SecondPieceStatus = "Operational - Last Update: 21/01/2025";
+getgenv().UntitledGymGameStatus = "Operational - Last Update: 21/01/2025";
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 -- // Webhook URLS, to know more details why i protect the webhooks then visit: https://github.com/FlamesW/Resorces/blob/main/WebhooksCL
@@ -24,7 +24,33 @@ ChangelogsSection1:Divider();
 -- // Changelogs Maker
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-ChangelogsSection1:Paragraph({Header = "Flameware 1.23 [Second Piece]",Body = "* The following changes:"});
+ChangelogsSection1:Paragraph({Header = "Flameware 1.24 [Second Piece]",Body = "* The following changes:"});
+
+ChangelogsSection1:SubLabel({Text = "- Added script for the game~"});
+
+ChangelogsSection1:SubLabel({Text = "- It is in BETA!"});
+
+ChangelogsSection1:SubLabel({Text = "- More features will be added soon."});
+
+ChangelogsSection1:Label({Text = "It takes some time to update~"});
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ChangelogsSection1:Divider();
+ChangelogsSection1:Paragraph({Header = "Flameware 1.24 [Untitled Gym Game]",Body = "* The following changes:"});
+
+ChangelogsSection1:SubLabel({Text = "- Improved script by tiny bit~"});
+
+ChangelogsSection1:SubLabel({Text = "- Added recent Anti Cheats"});
+
+ChangelogsSection1:SubLabel({Text = "- Tool no longer gets detected."});
+
+ChangelogsSection1:Label({Text = "It takes some time to update~"});
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ChangelogsSection1:Divider();
+ChangelogsSection1:Paragraph({Header = "Flameware 1.24 [Second Piece]",Body = "* The following changes:"});
 
 ChangelogsSection1:SubLabel({Text = "- Fixed Tool Attacking once."});
 
