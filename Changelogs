@@ -9,7 +9,7 @@ getgenv().UntitledGymGameStatus = "Operational - Last Update: 22/01/2025";
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 -- // Webhook URLS, to know more details why i protect the webhooks then visit: https://github.com/FlamesW/Resorces/blob/main/WebhooksCL
-loadstring(game:HttpGet("https://raw.githubusercontent.com/FlamesW/Resorces/main/WebhooksCL"))();
+-- loadstring(game:HttpGet("https://raw.githubusercontent.com/FlamesW/Resorces/main/WebhooksCL"))();
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 -- // Title
@@ -464,8 +464,8 @@ ChangelogsSection3:Input({Name = "Type here whatever~",Placeholder = 'Write here
     end,
 },"SuggestInput");
 
-ChangelogsSection3:Button({Name = "Submit Suggestion",Callback = function()
-    getgenv().SubmitSuggestion();
+ChangelogsSection3:Button({Name = "Submit Suggestion [LOCKED]",Callback = function()
+   -- getgenv().SubmitSuggestion();
 end});
 
 ChangelogsSection3:SubLabel({Text = "Disclaimer: Usernames will be logged."});
@@ -490,8 +490,8 @@ ChangelogsSection4:Input({Name = "Type here whatever~",Placeholder = 'Write here
     end,
 },"BugInput");
 
-ChangelogsSection4:Button({Name = "Submit Report",Callback = function()
-    getgenv().SubmitReport();
+ChangelogsSection4:Button({Name = "Submit Report [LOCKED]",Callback = function()
+    -- getgenv().SubmitReport();
 end});
 
 ChangelogsSection4:SubLabel({Text = "Disclaimer: Usernames will be logged."});
