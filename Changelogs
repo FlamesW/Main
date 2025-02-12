@@ -23,7 +23,15 @@ ChangelogsSection1:Divider();
 
 -- // Changelogs Maker
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ChangelogsSection1:Paragraph({Header = "Flameware 1.25 [Sakura Stand]",Body = "* The following changes:"});
 
+ChangelogsSection1:SubLabel({Text = "- Update soon lol."});
+
+ChangelogsSection1:Label({Text = "It takes some time to update~"});
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ChangelogsSection1:Divider();
 ChangelogsSection1:Paragraph({Header = "Flameware 1.24 [Second Piece]",Body = "* The following changes:"});
 
 ChangelogsSection1:SubLabel({Text = "- Increased teleports speeds~"});
