@@ -1,3 +1,3 @@
 repeat task.wait(0.1) until game:IsLoaded();
 local Scr = loadstring(game:HttpGet("https://raw.githubusercontent.com/FlamesW/notifidk/refs/heads/home/yes"))();
-Scr:Notify("Error","Script Is Discontinued.",15);
+Scr:Notify("Error","Flameware got discontinued.",15);
